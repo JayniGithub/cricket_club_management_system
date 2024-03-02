@@ -1,0 +1,38 @@
+body{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/17.jpg);
+    background-size: cover;    
+}
+
+.field{
+    width: 300px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 5px;
+    border-radius: 6px;
+}
+
+.btn{
+    width: 100px;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: darkgray;
+    background-color: darkgreen;
+    color: white;
+}
+
+table, th, td{
+    text-align: center;
+    padding: 5px;
+    min-width: 60px;
+    margin: auto 70px;
+    border: 2px solid gray;
+}
+
+table{
+    border-collapse: collapse;
+}

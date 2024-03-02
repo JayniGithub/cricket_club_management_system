@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/pic8.1.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.reg{
+    width:800px;
+    background-color: rgb(0,0,0,0.6);
+    margin: auto;
+    color:#ffffff;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.main{
+    background-color: rgb(0,0,0,0.5);
+    width:800px;
+    margin: auto;
+}
+
+form{
+    padding:10px;
+}
+
+.lable{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.name{
+    position:relative;
+    left:200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    width:500px;
+}
+
+.fee{
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    left:200px;
+    top:-24px;
+    color: white;
+    width:200px;
+}
+
+.btn1{
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 14px 90px;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    left:100px;
+    top: 29px;
+    cursor: pointer;
+
+}
+
+.btn2{
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 14px 90px;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    left:450px;
+    top: -37px;
+    cursor:pointer;
+
+}
+
+.calc{
+    background-color: green;
+    display: block;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+    padding: 8px 40px;
+    color:white;
+    position: relative;
+    left: 200px;
+}
+
+.par{
+    margin-left: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}

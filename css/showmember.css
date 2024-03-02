@@ -1,0 +1,39 @@
+body{
+    font-size: 18px;
+    font-weight:500; 
+    color: #fff;
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/pic7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+input{
+    width: 300px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 5px;
+}
+
+button{
+    width:100px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1E90FF;
+}
+
+table, td, th{
+    border: 2px solid whitesmoke;
+    text-align: center;
+   min-width: 110px;
+   padding: 5px;
+   margin: auto 70px;
+   
+}
+
+table{
+    border-collapse: collapse;
+    align-items: center;
+}

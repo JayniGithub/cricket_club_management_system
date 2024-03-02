@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/pic8.1.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.heading{
+    text-align: center;
+    width:800px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 0px 10px 0px;
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+}
+
+.main{
+    width:800px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+form{
+    padding:10px;
+}
+
+.lable{
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    width: 125px;
+}
+
+.txtbox{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    border-radius: 6px;
+    width: 500px;
+    line-height: 40px;
+    padding: 0 22px;
+    font-size: 18px;
+    
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    left:200px;
+    top:-24px;
+    color: white;
+    width:200px;
+}
+
+.btn{
+    position: relative;
+    left:-300px;
+    padding:6px 12px;
+    border-radius: 6px;
+    background-color: #40ff80;
+    top:10px;
+    font-weight: bold;
+}
+
+.btn1{
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 14px 90px;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    left:100px;
+    top: 29px;
+    cursor: pointer;
+
+}
+
+.btn2{
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 14px 90px;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    left:450px;
+    top: -37px;
+    cursor:pointer;
+
+}

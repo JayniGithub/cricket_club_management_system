@@ -1,0 +1,35 @@
+body{
+    font-size: 25px;
+    font-weight: bold;
+    background-image: url(../img/17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    width:600px;
+    margin: 100px auto;
+}
+
+.lbl{
+    position: flex;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.field{
+    display:relative;
+    margin-left: 20px;
+    width:40%;
+    padding: 7px;
+    border-radius: 6px;
+}
+
+.btn{
+    width: 30%;
+    padding: 8px;
+    margin-left: 70px;
+    font-size: 18px;
+    font-weight: bold;
+
+}

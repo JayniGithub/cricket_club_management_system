@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/pic8.1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.reg{
+    width:800px;
+    background-color: rgba(0,0,0,0.6);
+    margin: auto;
+    color:white;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.main{
+    background-color: rgba(0,0,0,0.5);
+    width:800px;
+    margin:auto;
+}
+
+.field1{
+    position:relative;
+    top:20px;
+    left:50px;
+    border-radius: 40px;
+    width:60%;
+    padding:5px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.btn{
+    position:relative;
+    margin-left: 150px;
+    padding:10px 50px;
+    top:20px;
+}
+
+
+form{
+    padding:10px;
+}
+
+.lable{
+    margin-left: 25px;
+    margin-top: 30px;
+    width:125px;
+    color:white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.field{
+    position: relative;
+    top: -37px;
+    left:200px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0px 22px;
+    font-size: 16px;
+    width:500px;
+}
+
+.box{
+    position: relative;
+    top: -37px;
+    left:200px;
+    border-radius: 6px;
+    padding:10px 22px;
+    font-size: 16px;
+    width:250px;
+}
+
+.btn1{
+    background-color: #3BAF9F;
+    display: block;
+    margin:20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 14px 90px;
+    outline: none;
+    color:white;
+    font-size:14px;
+    font-weight: 700;
+    position: relative;
+    top:29px;
+    left:100px;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: #3BAF9F;
+    display: block;
+    margin:20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 14px 90px;
+    outline: none;
+    color:white;
+    font-size:14px;
+    font-weight: 700;
+    position: relative;
+    top:-37px;
+    left:450px;
+    cursor: pointer;
+}
+
