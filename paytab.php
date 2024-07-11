@@ -12,7 +12,9 @@
     <center><h1>Payment Form</h1></center>
 
     <div class="container">
-
+        <div class="btn-wrapper">
+            <a href="./" class="return-btn">Back</a>
+        </div>
     <form action="" method="post">
 
         <center>

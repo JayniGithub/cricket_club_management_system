@@ -81,7 +81,7 @@
                                 VALUES('$_POST[mid]','$_POST[name]','$_POST[contact]','$_POST[btype]','$_POST[btime]',null)";
 
                                 if($query=mysqli_query($connection,$sql)){
-                                    echo "Added Successfully";
+                                    header('Location:index.php');
                                 }
                                 else{
                                     echo "error :".$sql."<br>".$connection->error;

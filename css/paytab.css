@@ -4,6 +4,22 @@ body{
     background: #99f2d6;
 }
 
+.btn-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.return-btn {
+    padding: 8px 15px;
+    border: none;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+
 h1{
     position: relative;
     top: 20px;
@@ -11,8 +27,8 @@ h1{
 
 .container{
     width: 550px;
-    margin: 120px 420px;
-    line-height: 150px;
+    margin: 50px 420px;
+    /* line-height: 150px; */
 }
 
 .button{

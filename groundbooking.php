@@ -15,20 +15,26 @@
 
     <div class="f1">
         <form action="" method="post">
-            <center>
-            <div class="search1">
-                <input type="text" class="field" name="text1" placeholder="Enter Booking ID here...">
-                <button type="submit" class="btn" value="search" name="search">Search</button>
-                <!--<input type="button" class="btn" value="Search" name="search">-->
+            <div class="row">
+                <div class="first-col">
+                    <div class="search1">
+                        <input type="text" class="field" name="text1" placeholder="Enter Booking ID here...">
+                        <button type="submit" class="btn" value="search" name="search">Search</button>
+                        <!--<input type="button" class="btn" value="Search" name="search">-->
+                    </div>
+                </div>
+                <div class="second-col">
+                    <a href="admin.php" class="return-btn">Back to dashboard</a>
+                </div>
             </div>
+            <center>
+            
                 <br>
             <div class="tbl">
                 <table>
                     <tr>
                         <th>Booking ID</th>
                         <th>Name</th>
-                        <th>NIC</th>
-                        <th>Email</th>
                         <th>Contact No</th>
                         <th>Purpose</th>
                         <th>Booking Date</th>
@@ -57,8 +63,6 @@
                                 <tr>
                                     <td><?php echo $result1['booking_id'];?></td>
                                     <td><?php echo $result1['name'];?></td>
-                                    <td><?php echo $result1['nic'];?></td>
-                                    <td><?php echo $result1['email'];?></td>
                                     <td><?php echo $result1['contact_no'];?></td>
                                     <td><?php echo $result1['purpose'];?></td>
                                     <td><?php echo $result1['booking_date'];?></td>

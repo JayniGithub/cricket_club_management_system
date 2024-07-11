@@ -2,19 +2,26 @@
 <html>
     <head>
         <title>Matara Cricket Club - Admin</title>
-        <link rel="stylesheet" href="css/showmember.css">
+        <link rel="stylesheet" href="./css/showmember.css">
     </head>
 
     <body>
         <div class="heading"><center><h1>CLUB MEMBERS</h1></center></div>
         <div class="main">
-            <form action="" method="post">
-                <p><center>
-                    <input type="text" name="text1" placeholder="Enter NIC number...">
-                    <button type="submit" name="search">Search</button>
-                    </center>
-                </p>
-            </form>
+            <div class="row">
+                <div class="first-row">
+                    <form action="" method="post">
+                        <p><center>
+                            <input type="text" name="text1" placeholder="Enter NIC number...">
+                            <button type="submit" name="search">Search</button>
+                            </center>
+                        </p>
+                    </form>
+                </div>
+                <div class="second-row">
+                    <a href="admin.php" class="return-btn">Back to dashboard</a>
+                </div>
+            </div>
 
 
             <table>

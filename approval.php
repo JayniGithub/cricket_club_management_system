@@ -34,20 +34,6 @@
             $days = $result['no_of_days'];
             $amount = $result['amount'];
 
-            $to = $mail;
-            $subject = "Ground Booking Details";
-            $message = "Your Booking has done successfully..! \n Booking ID :".$appid."\n"."Name :".$name."\n"."NIC :".$nic."\n"."Purpose :".$purpose."\n"."Booking Date :".$date."\n"."No of Days :".$days."\n"."Full Payment".$amount."\n"."Account No:10000524"."\n"."Branch : Matara Branch"."\n"."Bank : BOC"."\n"."First pay half of your total amount as advance payment for ground booking";
-            $headers = "From : jayanihettiarachchi98@gmail.com";
-    
-            $retval = mail($to,$subject,$message,$headers);
-    
-            if($retval == true){
-                echo "Message Sent Successfully";
-            }
-            else{
-                echo "Message could not be sent";
-            }
-
         }
 
         $query1 = "DELETE FROM approval WHERE approval_id = '$id'";

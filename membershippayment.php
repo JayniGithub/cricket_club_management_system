@@ -56,7 +56,7 @@
                         <td><?php echo $result['name'];?></td>
                         <td><?php echo $result['ref_no'];?></td>
                         <td><?php echo $result['acc_no'];?></td>
-                        <td><img src="../inproject/member_fee/<?php echo $result['image'];?>" style="width:100px;height:100px;" alt="" ></td>
+                        <td><img src="../cricket_club_management_system/member_fee/<?php echo $result['image'];?>" style="width:100px;height:100px;" alt="" ></td>
                     </tr>
 
 
@@ -76,7 +76,7 @@
                             <td><?php echo $result['name'];?></td>
                             <td><?php echo $result['ref_no'];?></td>
                             <td><?php echo $result['acc_no'];?></td>
-                            <td><img src="../inproject/member_fee/<?php echo $result['image'];?>" style="width:100px;height:100px;" alt="" ></td>
+                            <td><img src="../cricket_club_management_system/member_fee/<?php echo $result['image'];?>" style="width:100px;height:100px;" alt="" ></td>
                         </tr>
 
             <?php

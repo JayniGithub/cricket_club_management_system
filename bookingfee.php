@@ -29,7 +29,7 @@
             if(isset($_POST['search'])){
                 $bid=$_POST['txt'];
 
-                $sql="SELECT name,email FROM ground_booking WHERE booking_id='$bid'";
+                $sql="SELECT name FROM ground_booking WHERE booking_id='$bid'";
 
                 $sql_run=mysqli_query($connection,$sql);
             
@@ -42,11 +42,6 @@
             <p>
                 <lable class="lbl">Customer Name    :</lable>
                 <span><input type="text" class="field" name="txt1" value="<?php echo $resultset['name'];?>"></span>
-            </p>
-
-            <p>
-                <lable class="lbl">Email Address   :</lable>
-                <span><input type="text" class="field" name="txt4" value="<?php echo $resultset['email'];?>"></span>
             </p>
             
             <p>
@@ -96,32 +91,13 @@
 
         move_uploaded_file($temp_name,$upload_to.$file_name);
 
-        $query = "INSERT INTO booking_fee(booking_id,name,email,ref_no,acc_no,image)
-        VALUE('$_POST[txt]','$_POST[txt1]','$_POST[txt4]','$_POST[txt2]','$_POST[txt3]','$file_name')";
+        $query = "INSERT INTO booking_fee(booking_id,name,ref_no,acc_no,image)
+        VALUE('$_POST[txt]','$_POST[txt1]','$_POST[txt2]','$_POST[txt3]','$file_name')";
 
         if($result = mysqli_query($connection,$query)){
 
             echo '<script type = text/javascript>alert("Successfully Added")</script>';
-            $bid = $_POST['txt'];
-            $name = $_POST['txt1'];
-            $mail = $_POST['txt4'];
-            $rno = $_POST['txt2'];
-            $ano = $_POST['txt3'];
-
-            $to = $mail;
-            $subject = "Ground Booking Payments";
-            $message = "Booking ID :".$bid."\n"."Name :".$name."\n"."Reference No :".$rno."\n"."Account No:".$ano."\n"."Thank You... Your Booking Payment has been Successfully Done!!!";
-            $headers = "From : jayanihettiarachchi98@gmail.com";
-
-            $retval = mail($to,$subject,$message,$headers);
-
-            if($retval == true){
-                echo '<script type = text/javascript>alert("Email sent Successfully")</script>';
-            }
-            else{
-                echo '<script type = text/javascript>alert("Not Successful")</script>';
-            }
-
+            header('Location:paytab.php');
         }
         else{
 

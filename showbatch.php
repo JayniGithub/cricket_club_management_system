@@ -12,12 +12,19 @@
     <br>
 
     <div class="main">
-        <form action="" method="post">
-            <center>
-            <input type="text" class="textfield" name="txt" placeholder="Enter member id here...">
-            <button type="submit" name="search" value="search">Search</button>
-            </center>
-        </form>
+        <div class="row">
+            <div class="first-col">
+                <form action="" method="post">
+                    <center>
+                    <input type="text" class="textfield" name="txt" placeholder="Enter member id here...">
+                    <button type="submit" name="search" value="search">Search</button>
+                    </center>
+                </form>
+            </div>
+            <div class="second-col">
+                <a href="admin.php" class="return-btn">Back to dashboard</a>
+            </div>
+        </div>
     </div>
 <br>
     <center>

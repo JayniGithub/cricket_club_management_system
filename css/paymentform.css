@@ -4,9 +4,25 @@ body{
     font-weight: bold;
 }
 
+.btn-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.return-btn {
+    padding: 8px 15px;
+    border: none;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+
 .container{
     width: 750px;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 .lbl{

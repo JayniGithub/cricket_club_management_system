@@ -3,28 +3,6 @@
 
 $connection = mysqli_connect("localhost","root","","myproject");
 
-if(isset($_POST['submit'])){
-    $mid = $_POST['txt'];
-    $name = $_POST['txt1'];
-    $mail = $_POST['txt4'];
-    $rno = $_POST['txt2'];
-    $ano = $_POST['txt3'];
-
-    $to = $mail;
-    $subject = "Annual Membership Payments";
-    $message = "Member ID :".$mid."\n"."Name :".$name."\n"."Reference No :".$rno."\n"."Account No:".$ano."\n"."Thank You... Your Payment has been Successfully Done!!!";
-    $headers = "From : jayanihettiarachchi98@gmail.com";
-
-    $retval = mail($to,$subject,$message,$headers);
-
-    if($retval == true){
-        echo "Message Sent Successfully";
-    }
-    else{
-        echo "Message could not be sent";
-    }
-}
-
 ?>
 
 
@@ -44,6 +22,9 @@ if(isset($_POST['submit'])){
         <center><h1>Payment Form</h1></center>
     </div>
     <div class="container">
+        <div class="btn-wrapper">
+            <a href="paytab.php" class="return-btn">Back</a>
+        </div>
         <form action="" method="post" enctype="multipart/form-data">
         <fieldset>
             <p>
@@ -54,11 +35,6 @@ if(isset($_POST['submit'])){
             <p>
                 <lable class="lbl">Name    :</lable>
                 <span><input type="text" class="field" name="txt1" Placeholder="Enter Name..."></span>
-            </p>
-
-            <p>
-                <lable class="lbl">Email Address    :</lable>
-                <span><input type="text" class="field" name="txt4" Placeholder="Enter Email..."></span>
             </p>
 
             <p>
@@ -118,12 +94,13 @@ if(isset($_POST['submit'])){
 
         move_uploaded_file($temp_name,$upload_to.$file_name);
 
-        $query = "INSERT INTO image(member_id,name,email,btype,btime,ref_no,acc_no,attach)
-        VALUE('$_POST[txt]','$_POST[txt1]','$_POST[txt4]','$_POST[btype]','$_POST[btime]','$_POST[txt2]','$_POST[txt3]','$file_name')";
+        $query = "INSERT INTO image(member_id,name,btype,btime,ref_no,acc_no,attach)
+        VALUE('$_POST[txt]','$_POST[txt1]','$_POST[btype]','$_POST[btime]','$_POST[txt2]','$_POST[txt3]','$file_name')";
 
         if($result = mysqli_query($connection,$query)){
 
             echo '<script type = text/javascript>alert("Successfully Added")</script>';
+            header('Location:paytab.php');
 
         }else{
 

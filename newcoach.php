@@ -97,6 +97,7 @@
 
                 if($query=mysqli_query($connection,$sql)){
                     echo '<script type = text/javascript>alert("Successfully Added")</script>';
+                    header('Location:admin.php');
                 }
                 else{
                     echo '<script type = text/javascript>alert("Unsuccessful")</script>';

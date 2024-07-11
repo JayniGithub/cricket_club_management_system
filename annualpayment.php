@@ -61,7 +61,7 @@
                             <td><?php echo $result['btime'];?></td>
                             <td><?php echo $result['ref_no'];?></td>
                             <td><?php echo $result['acc_no'];?></td>
-                            <td><img src="../inproject/images/<?php echo $result['attach'];?>" style="width:100px;height:100px;" alt="" ></td>
+                            <td><img src="../cricket_club_management_system/images/<?php echo $result['attach'];?>" style="width:100px;height:100px;" alt="" ></td>
                         </tr>
 
                         <?php
@@ -82,7 +82,7 @@
                             <td><?php echo $result['btime'];?></td>
                             <td><?php echo $result['ref_no'];?></td>
                             <td><?php echo $result['acc_no'];?></td>
-                            <td><img src="../inproject/images/<?php echo $result['attach'];?>" style="width:100px;height:100px;" alt="" ></td>
+                            <td><img src="../cricket_club_management_system/images/<?php echo $result['attach'];?>" style="width:100px;height:100px;" alt="" ></td>
                         </tr>
 
                     <?php

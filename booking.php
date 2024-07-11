@@ -109,13 +109,13 @@
                         $amount = $diff*$value;
 
                         //email
-                        $name = $_POST['name'];
-                        $to = $_POST['email'];
-                        $subject = "Cricket Club, Matara";
-                        $message = " Hello ".$name. "\n" ."No of days you booked :". $diff."\n"." Your Amount for booked dates is :". $amount."\n"." We will inform you when it approved";
-                        $from = "jayanihettiarachchi98@gmail.com";
-                        $headers = "From: $from";
-                        mail($to,$subject,$message,$headers);
+                        // $name = $_POST['name'];
+                        // $to = $_POST['email'];
+                        // $subject = "Cricket Club, Matara";
+                        // $message = " Hello ".$name. "\n" ."No of days you booked :". $diff."\n"." Your Amount for booked dates is :". $amount."\n"." We will inform you when it approved";
+                        // $from = "jayanihettiarachchi98@gmail.com";
+                        // $headers = "From: $from";
+                        // mail($to,$subject,$message,$headers);
 
                         //data insertion
                         $sql = "INSERT INTO approval(approval_id, name, nic, email, contact_no, purpose, booking_date, end_date, no_of_days, amount)

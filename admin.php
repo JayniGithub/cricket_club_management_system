@@ -132,10 +132,8 @@
                 <center>
                 <table>
                     <tr>
-                        <th>Approval ID</th>
+                        <th>#</th>
                         <th>Name</th>
-                        <th>NIC</th>
-                        <th>Email</th>
                         <th>Contact No</th>
                         <th>Purpose</th>
                         <th>Booking Date</th>
@@ -160,8 +158,6 @@
                                 <tr>
                                     <td><?php echo $result['approval_id'];?></td>
                                     <td><?php echo $result['name'];?></td>
-                                    <td><?php echo $result['nic'];?></td>
-                                    <td><?php echo $result['email'];?></td>
                                     <td><?php echo $result['contact_no'];?></td>
                                     <td><?php echo $result['purpose'];?></td>
                                     <td><?php echo $result['booking_date'];?></td>

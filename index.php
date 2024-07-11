@@ -69,7 +69,7 @@
                     <div class="col-md-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="../inproject/coaches/<?php echo $result['image'];?>" alt="coach images" class="card-img-top">
+                                <img src="../cricket_club_management_system/coaches/<?php echo $result['image'];?>" alt="coach images" class="card-img-top">
                                 <h2 class="card-title"><?php  echo $result['name'];?></h2>
                                 <p class="card-text">
                                     <?php  echo $result['details'];?>
