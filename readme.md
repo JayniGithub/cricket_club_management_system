@@ -37,7 +37,10 @@ Mainly, you have to install xampp server to the machine. As we use xampp server 
 ***
 ## Collaboration
 ***
-Here I have attched my database file as well.
+Here I have attched my database file as well. Import it into your database.
+***
+* DB name - myproject (please use this name)
+***
 ![myprojectsql_file](./Database/myproject.sql)
 ***
 #### Congratulation...!, You've successfully ran the project in your local server.
