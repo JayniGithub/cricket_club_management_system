@@ -51,13 +51,6 @@
                 </li>
 
                 <li>
-                    <a href="admindetails.php">
-                    <i class='bx bxs-id-card'></i>
-                    <span class="link-name">Admin Details</span>
-                    </a>
-                </li>
-
-                <li>
                     <a href="coach.php">
                     <i class='bx bx-male'></i>
                     <span class="link-name">Coach Details</span>
